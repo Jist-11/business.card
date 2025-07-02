@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manan | Freelance Web Developer</title>
+    <meta name="description" content="Build fast websites for your business starting at ₹299. Professional web development services by Manan Verma." />
+    <meta name="author" content="Manan Verma" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Manan | Freelance Web Developer" />
+    <meta property="og:description" content="Build fast websites for your business starting at ₹299." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mananverma.dev" />
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Manan | Freelance Web Developer" />
+    <meta name="twitter:description" content="Build fast websites for your business starting at ₹299." />
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Floating Contact Button -->
+    <button class="floating-contact" onclick="scrollToSection('contact')" aria-label="Contact">
+      📞
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">Manan.dev</div>
+        <ul class="nav-menu">
+          <li><a href="#hero" onclick="scrollToSection('hero')">Home</a></li>
+          <li><a href="#services" onclick="scrollToSection('services')">Services</a></li>
+          <li><a href="#work" onclick="scrollToSection('work')">Work</a></li>
+          <li><a href="#pricing" onclick="scrollToSection('pricing')">Pricing</a></li>
+          <li><a href="https://jist-11.github.io/business_plan/" target="_blank">Main Site</a></li>
+          <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">👋 Hi, I'm <span class="highlight">Manan</span></h1>
+        <p class="hero-subtitle">
+          I build websites for businesses — <span id="typewriter"></span>
+        </p>
+        <div class="hero-buttons">
+          <button class="cta-button" onclick="scrollToSection('contact')">
+            Get a Website Like This
+          </button>
+          <a href="https://jist-11.github.io/business_plan/" target="_blank" class="cta-button secondary">
+            View Main Website
+          </a>
+        </div>
+      </div>
+      <div class="hero-background">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">What I Do</h2>
+        <p class="section-subtitle">I design landing pages, booking portals, SEO-ready websites.</p>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Landing Pages</h3>
+            <p>Convert visitors into customers with stunning, optimized landing pages.</p>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>Mobile-First Design</h3>
+            <p>Responsive websites that look perfect on every device and screen size.</p>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">🚀</div>
+            <h3>Fast & SEO Ready</h3>
+            <p>Lightning-fast websites optimized for search engines and performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Work Section -->
+    <section id="work" class="work">
+      <div class="container">
+        <h2 class="section-title">Featured Work</h2>
+        
+        <div class="work-grid">
+          <div class="work-card featured">
+            <div class="work-image">
+              <div class="work-placeholder">BusnTaxi.com</div>
+            </div>
+            <div class="work-content">
+              <h3>BusnTaxi - Booking Platform</h3>
+              <p>Full-featured taxi booking website with real-time availability and booking system.</p>
+              <a href="https://busntaxi.com" target="_blank" class="work-button">View Project →</a>
+            </div>
+          </div>
+          
+          <div class="work-card">
+            <div class="work-image">
+              <div class="work-placeholder">Restaurant Site</div>
+            </div>
+            <div class="work-content">
+              <h3>Restaurant Website</h3>
+              <p>Modern restaurant website with online menu and reservation system.</p>
+              <button class="work-button disabled">Coming Soon</button>
+            </div>
+          </div>
+          
+          <div class="work-card">
+            <div class="work-image">
+              <div class="work-placeholder">E-commerce</div>
+            </div>
+            <div class="work-content">
+              <h3>E-commerce Store</h3>
+              <p>Complete online store with payment integration and inventory management.</p>
+              <button class="work-button disabled">Coming Soon</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Delivered in 2 days! Super fast work and exactly what we needed for our business."</p>
+            <div class="testimonial-author">
+              <strong>— Happy Client</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2 class="section-title">Pricing Plans</h2>
+        <p class="section-subtitle">Choose the perfect plan for your business needs</p>
+        
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Basic</h3>
+            <div class="price">₹200</div>
+            <p class="price-desc">Static Site</p>
+            <ul class="features">
+              <li>✓ Single page website</li>
+              <li>✓ Mobile responsive</li>
+              <li>✓ Basic SEO setup</li>
+              <li>✓ Contact form</li>
+            </ul>
+          </div>
+          
+          <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular</div>
+            <h3>Pro</h3>
+            <div class="price">₹300</div>
+            <p class="price-desc">Full Website</p>
+            <ul class="features">
+              <li>✓ Multi-page website</li>
+              <li>✓ Advanced animations</li>
+              <li>✓ SEO optimized</li>
+              <li>✓ Analytics setup</li>
+              <li>✓ Social media integration</li>
+            </ul>
+          </div>
+          
+          <div class="pricing-card">
+            <h3>Ultimate</h3>
+            <div class="price">₹400</div>
+            <p class="price-desc">Business Plus</p>
+            <ul class="features">
+              <li>✓ Everything in Pro</li>
+              <li>✓ E-commerce features</li>
+              <li>✓ Payment integration</li>
+              <li>✓ Admin dashboard</li>
+              <li>✓ 30 days support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Ready to grow your business online?</p>
+        
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div class="contact-details">
+                <strong>WhatsApp</strong>
+                <span id="phoneNumber">+91 99111 15470</span>
+                <button class="copy-btn" onclick="copyToClipboard('phoneNumber')">Copy</button>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <strong>Email</strong>
+                <span id="emailAddress">manan.verma0511@gmail.com</span>
+                <button class="copy-btn" onclick="copyToClipboard('emailAddress')">Copy</button>
+              </div>
+            </div>
+            
+            <div class="contact-buttons">
+              <a href="https://wa.me/919911115470" target="_blank" class="contact-button whatsapp">
+                💬 WhatsApp Me
+              </a>
+              <a href="mailto:manan.verma0511@gmail.com" class="contact-button email">
+                📧 Send Email
+              </a>
+            </div>
+          </div>
+          
+          <form class="contact-form" id="contactForm">
+            <h3>Quick Message</h3>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Project Details" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Manan Verma. Building the web, one site at a time.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
