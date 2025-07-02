@@ -3,7 +3,7 @@
 **business.card** is a sleek, one-page digital business card website made for **Manan**, a 14-year-old freelance web developer.  
 It’s designed to help clients instantly understand what I do, see examples of my work, and contact me to book their own website.
 
-> 🚀 *Need a site for your business? I make websites starting at just ₹299.*
+> 🚀 *Need a site for your business? I make websites starting at just ₹200.*
 
 ---
 
